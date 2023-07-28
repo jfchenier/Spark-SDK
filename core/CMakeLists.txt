@@ -1,0 +1,5 @@
+add_subdirectory(audio)
+if(IS_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/ranging")
+add_subdirectory(ranging)
+endif()
+add_subdirectory(wireless)
